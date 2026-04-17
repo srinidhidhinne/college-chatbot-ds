@@ -1,0 +1,22 @@
+{
+    "physics": {
+        "present": 0,
+        "total": 0
+    },
+    "chemistry": {
+        "present": 0,
+        "total": 0
+    },
+    "maths": {
+        "present": 0,
+        "total": 0
+    },
+    "ds": {
+        "present": 1,
+        "total": 1
+    },
+    "be": {
+        "present": 1,
+        "total": 1
+    }
+}

@@ -1,0 +1,18 @@
+You (19:57): hostel fees
+Bot (19:57): Hostel fee is ₹50,000 per year.
+You (19:57): hostel rules
+Bot (19:57): Students must follow hostel timings.
+You: h
+Bot: Did you mean hostel fees? (yes/no)
+You: yes
+Bot: Hostel fee is ₹50,000 per year.
+
+You: hostel fees
+Bot: Hostel fee is ₹50,000 per year.
+You: hostel rules
+Bot: Students must follow hostel timings.
+You: where is silver jubliee block?
+Bot: In front of CSE block
+You: where is cc1 located
+Bot: !st floor near office
+

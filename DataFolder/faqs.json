@@ -1,8 +1,17 @@
 {
-  "hostel fees": "Hostel fee is ₹50,000 per year.",
-  "library timing": "Library is open from 9 AM to 6 PM.",
-  "admission fees": "Admission fee is ₹10,000.",
-  "courses offered": "CSE, ECE, IT, Mechanical.",
-  "canteen timing": "Canteen is open from 8 AM to 8 PM.",
-  "placement details": "Top companies visit every year."
+    "hostel fees": "Hostel fee is \u20b950,000 per year.",
+    "hostel rules": "Students must follow hostel timings.",
+    "library timing": "Library is open from 9 AM to 6 PM.",
+    "library location": "Library is beside admin block.",
+    "admission fees": "Admission fee is \u20b910,000.",
+    "admission process": "Submit documents and pay fees.",
+    "lh 14 location": "Fourth floor(beside Drawing Hall)",
+    "daily classes timing": "9-4",
+    "does vac-pd have credits?": "No cretids for VAC-PD",
+    "where is canteen located?": "near ew lab",
+    "who teahces math for 1st year 1 sem it a": "Gayathri mam",
+    "where is cc1 located": "!st floor near office",
+    "where is silver jubliee block?": "In front of CSE block",
+    "is 75% attendance mandatory": "yess",
+    "where is admin block?": "in clg"
 }

@@ -1,0 +1,14 @@
+{
+    "Samskruthi": {
+        "description": "Samsruthi is a cultural club.President:Amogha,",
+        "president": "Amogha",
+        "contact": "samsruthi&gnits.ac.in",
+        "events": []
+    },
+    "CSI": {
+        "description": "CSI is a coding club",
+        "president": "President:Srinidhi Dhinne",
+        "contact": "srinidhidhinne@gmail.com",
+        "events": []
+    }
+}

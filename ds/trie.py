@@ -10,6 +10,7 @@ class Trie:
     def __init__(self):
         self.root = TrieNode()
 
+
     def insert(self, word):
 
         node = self.root
@@ -23,41 +24,32 @@ class Trie:
 
         node.is_end = True
 
-    # Search prefix node
-    def search_prefix(self, prefix):
+
+    def get_suggestions(self, prefix):
 
         node = self.root
 
         for char in prefix:
 
             if char not in node.children:
-                return None
+                return []
 
             node = node.children[char]
 
-        return node
+        words = []
+        self._dfs(node, prefix, words)
 
-    # Collect suggestions
-    def suggestions_helper(self, node, prefix, results):
+        return words
+
+
+    def _dfs(self, node, prefix, words):
 
         if node.is_end:
-            results.append(prefix)
+            words.append(prefix)
 
         for char in node.children:
-            self.suggestions_helper(
+            self._dfs(
                 node.children[char],
                 prefix + char,
-                results
+                words
             )
-
-    # Get suggestions
-    def get_suggestions(self, prefix):
-
-        results = []
-
-        node = self.search_prefix(prefix)
-
-        if node:
-            self.suggestions_helper(node, prefix, results)
-
-        return results
